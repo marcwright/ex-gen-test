@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Diesel Express' });
+  res.render('index', { title: 'Diesel Express freature branch' });
 });
 
 module.exports = router;
